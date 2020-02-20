@@ -18,9 +18,9 @@ AtCoderの問題の中から指定された範囲のdifficultyの問題をラン
 ２つのコマンドがあります.
 ### /atcoder lower-upper
 このコマンドはdifficultyが[lower, upper)の範囲の問題をランダムに1つ抽出します.  
-例えば`\1200-1600`と入力するとdifficultyが1200~1599の問題から選ばれます.  
+例えば`/atcoder 1200-1600`と入力するとdifficultyが1200~1599の問題から選ばれます.  
 
 ### /atcoder color
 このコマンドはレートの色に対応するdifficultyの問題からランダムに1つ抽出します.  
-例えば`\cyan`と入力するとdifficultyが1200~1599の問題から選ばれます.  
+例えば`/atcoder cyan`と入力するとdifficultyが1200~1599の問題から選ばれます.  
 
