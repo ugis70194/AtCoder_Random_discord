@@ -47,7 +47,7 @@ def parse(message):
     return int(lower), int(upper)
 
 def color_req(message):
-    color = message[1:len(message)]
+    color = message
     if color in color_to_diff.keys() :
         diffculties = color_to_diff[color]
         return diffculties[0], diffculties[1]
