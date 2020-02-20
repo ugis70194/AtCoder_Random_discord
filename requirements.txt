@@ -11,7 +11,7 @@ idna-ssl==1.1.0
 keyring==10.6.0
 keyrings.alt==3.0
 multidict==4.7.4
-pycryptodemo==3.9.6
+pycryptodome==3.9.6
 pygobject==3.26.1
 pyxdg==0.26
 requests==2.23.0
