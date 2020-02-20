@@ -6,7 +6,7 @@ AtCoderの問題の中から指定された範囲のdifficultyの問題をラン
 - difficultyの値はAtCoder ProblemsのAPIから取得しています
 - リクエストごとにAPIを叩いているので無闇にリクエストを送りまくらないで下さい(負荷がかかります)
 - 埋め込みリンクが表示されないときは問題へのリンクが繋がっていません.
-    - もしそういった問題を見つけた場合は僕(https://twitter.com/ugis_prog)まで知らせて下さい
+    - もしそういった問題を見つけた場合は僕(<a href=https://twitter.com/ugis_prog>@ugis_prog</a>)まで知らせて下さい
 - 指定された範囲のdifficultyの問題が無い場合は"問題がありません"と返ってきます
 - レスポンスがあるまで2~3秒ほどかかるかもしれません 
 
