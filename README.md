@@ -1,7 +1,7 @@
 # AtCoder Random
 
 ## introduction
-AtCoderの問題の中から,指定された範囲のdifficultyの問題をランダムに1つ選んでリンクを貼ってくれるbotです.  
+AtCoderの問題の中から指定された範囲のdifficultyの問題をランダムに1つ選んでリンクを貼ってくれるbotです.  
 ### Note
 - difficultyの値はAtCoder ProblemsのAPIから取得しています
 - リクエストごとにAPIを叩いているので無闇にリクエストを送りまくらないで下さい(負荷がかかります)
