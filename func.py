@@ -28,7 +28,7 @@ def get_problems(lower, upper) :
     return [problem[0] for problem in problem_models.items() if lower <= int(problem[1]["difficulty"]) < upper]
 
 def parse(message):
-    if message[1] == '-' : return INF, INF
+    if message[0] == '-' : return INF, INF
 
     message += '-'
     left = 1; right = 1
