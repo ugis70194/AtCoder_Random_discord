@@ -31,12 +31,12 @@ def parse(message):
     if message[0] == '-' : return INF, INF
 
     message += '-'
-    left = 1; right = 1
+    left = 0; right = 0
     lower = INF; upper = INF    
 
     while(right < len(message)) : 
         if message[right] == '-' :
-            if left == 1 : lower = int(message[left:right])
+            if left == 0 : lower = int(message[left:right])
             else : upper = int(message[left:right])
             left = right + 1 
         elif not message[right].isdecimal(): 
